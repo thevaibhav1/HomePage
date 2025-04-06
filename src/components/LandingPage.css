@@ -93,31 +93,3 @@ p {
   color: #666;
   margin: 0;
 }
-
- 
-
- 
-
- 
-
-/* @media (max-width: 768px) {
-  .content-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .left-section, .right-section {
-    max-width: 100%;
-  }
-
-  .stats {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .stat-card {
-    width: 100%;
-  }
-
-  
-} */

@@ -1,0 +1,42 @@
+.services-container {
+  background-color: #1a2a44;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+}
+
+.service-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+h3 {
+  color: #f4a261;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li::before {
+  content: '•';
+  color: #f4a261;
+  position: absolute;
+  left: 0;
+  font-size: 1.2em;
+}

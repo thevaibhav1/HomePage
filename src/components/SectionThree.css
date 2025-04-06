@@ -1,0 +1,55 @@
+.why-choose-us-container {
+ 
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #f4a261;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+ 
+
+p {
+  color: #333;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.checkmark {
+  color: #f4a261;
+  font-size: 1.5em;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+}

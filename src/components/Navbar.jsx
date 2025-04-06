@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <div className="navbar-logo"></div> {/* Styled as a checkmark circle */}
+        <div className="navbar-logo"></div>
         <span className="navbar-title">RegisterKaro</span>
       </div>
       <ul className="navbar-menu">
